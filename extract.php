@@ -111,7 +111,7 @@ foreach ($extract_data["result"] as $key => $value) {
   <textarea name="name" rows="8" cols="80"><?php echo json_encode($error, JSON_PRETTY_PRINT); ?></textarea>
 </details>
 <details open>
-  <summary>structure</summary>
+  <summary>structure (transform settings)</summary>
   <textarea name="name" rows="8" cols="80"><?php echo json_encode($extracted_data["structure"], JSON_PRETTY_PRINT); ?></textarea>
 </details>
 <details open>
